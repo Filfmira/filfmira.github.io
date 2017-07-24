@@ -1,0 +1,40 @@
+#navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	/*green*/
+	background-color: rgb(92,184,92);
+
+    //box-shadow: 0px 5px 5px #444444;
+}
+
+#navbar-toggle-icon-black{
+	background-color: rgb(51,69,79);
+}
+
+#navbar-toggle-black{
+	border-color: rgb(51,69,79);
+}
+
+
+.dropdown-toggle-white{
+	color: rgb(51,69,79);
+}
+
+#navbar-brand-white{
+	color: white;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+.accept_friend_request:hover {
+    color: #1ab11a;
+}
+
+.decline_friend_request:hover {
+    color: red;
+}
+

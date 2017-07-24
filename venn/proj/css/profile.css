@@ -1,0 +1,161 @@
+#myPostsh2 {
+    margin-top: 0px;
+}
+
+.datepickerdiv{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+#profilePic {
+    width:300px;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border-radius:5px;
+    overflow:hidden;
+}
+
+
+#profilePic {
+    /* background: 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 250px;
+}
+
+#overlay-profilePic {
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    padding:45px 0 66px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;}
+
+#profilePic:hover #overlay-profilePic {
+    opacity:1;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.btn-transparent:focus,.btn-transparent:active {
+    outline: none !important;
+    background-color: Transparent !important;
+    overflow: hidden !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.profilePic:hover {
+    background-color:#000000;
+    opacity:0.2;
+}
+
+.centered-and-cropped { object-fit: cover }
+
+.itemsContainer {
+    position:relative
+}
+.itemsContainer:hover .play{display:block}
+.play{
+    position : absolute;
+    display:none;
+    top:30%;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100
+}
+
+.centered{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.modal-body .modal-circle p {
+    text-align: center;
+}
+
+
+/*
+// Listrap v1.0, by Gustavo Gondim (http://github.com/ggondim)
+// Licenced under MIT License
+// For updates, improvements and issues, see https://github.com/inosoftbr/listrap
+*/
+
+.listrap {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.listrap li {
+    margin: 0;
+    padding: 10px;
+}
+
+.listrap li.active, .listrap li:hover {
+    background-color: #d9edf7;
+}
+
+.listrap strong {
+    margin-left: 10px;
+}
+
+.listrap .listrap-toggle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.listrap .listrap-toggle span {
+    background-color: #428bca;
+    opacity: 0.8;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.listrap .listrap-toggle span:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+}
+
+.listrap li.active .listrap-toggle span {
+    display: block;
+}
+
+.row-friends-model{
+    margin-top: 20px;
+}
+
+.modal-body .modal-friend p{
+    text-align: center;
+}
+
+.modal-body {
+    overflow: hidden;
+}
+
+.centered{
+    marin-left:auto;
+    margin-right:auto;
+}
+

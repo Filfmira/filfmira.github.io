@@ -1,0 +1,157 @@
+/*Panel*/
+
+.panel, .col{
+    border-radius: 0px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.btn-success{
+    background-color: rgb(92,184,92);
+}
+
+.btn-info{
+    background-color: rgb(58, 94, 115);
+    border-color: rgb(51,69,79);
+}
+
+.btn-info:hover{
+    background-color: rgb(51,69,79);
+    border-color: rgb(51,69,79);
+}
+.btn-info:focus{
+    background-color: rgb(51,69,79);
+    border-color: rgb(51,69,79);
+}
+
+.panel-feed {
+    background-color:white;
+    border-radius:0%;
+}
+
+.panel-feed .panel-body,.panel-feed .panel-heading,.panel-feed .panel-footer{
+    padding-bottom:8px;
+    background-color:inherit;
+    border:0px;
+    border-radius:0%;
+}
+
+/*Panel Header*/
+.panel-feed .panel-heading{
+    font-size:1.2em;
+    padding-bottom:3px;
+    padding-left:25px;
+}
+.panel-feed .panel-heading img{
+    margin-right: 10px;
+}
+
+.panel-feed .panel-heading h4{
+    margin-top: 10px;
+}
+
+
+/*Panel Body*/
+.panel-feed .panel-body{
+    padding-top:7px;
+    padding-bottom:3px;
+    padding-left:25px;
+}
+
+.vote-section{
+    float:right;
+    margin:15px;
+    margin-top:0px;
+}
+
+.vote-section td i{
+    font-size: 1.5em;
+}
+
+/*Panel Footer*/
+.panel-feed .panel-footer{
+    color:rgb(51,69,79);
+    padding-top:0px;
+}
+
+.fill-flow{
+    overflow:auto;
+}
+
+#clock-panel{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1em;
+    color:rgb(51,69,79);
+    float: left;
+    padding-right:auto;
+}
+
+.btn-comments, .btn-delete, .btn-repost, .btn-edit , .btn-flag-report, .btn-edit-circle{
+    float: right;
+    background-color:transparent;
+    border-color:transparent;
+}
+
+.btn-comments:focus, .btn-delete:focus, .btn-edit:focus, .btn-repost:focus, .btn-flag-report:focus, .btn-edit-circle:focus{
+    outline: none;
+}
+
+#{
+	padding:5px;
+	border-top:1px;
+}
+
+#btn-transparent{
+    background-color: transparent;
+    border-color: transparent;
+    /*font-size: 0.6em;*/
+    color:rgb(51,69,79);
+}
+
+#btn-transparent:focus {
+    outline: none;
+}
+
+.post-msg-div, .post-url-div {
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+    /* Non standard for webkit*/
+    word-break: break-all;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.modal-body .modal-votes p {
+    text-align: center;
+}
+
+.modal-body {
+    overflow: hidden;
+}
+
+.upvote-btn, .downvote-btn, .votedifference {
+    cursor: pointer;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
