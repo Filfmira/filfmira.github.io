@@ -66,7 +66,7 @@ h2 {
     }
 
 h3 {
-    font-size   : 13px;
+    font-size   : 15px;
     line-height : 1.8em;
     font-weight : 700;
     }
@@ -163,7 +163,7 @@ ul {
 .btn-default {
     color            : #138dd8;
     background-color : transparent;
-    border           : 2px solid #138dd8;
+    border           : 1px solid #138dd8;
     }
 
 .btn-default:hover,
@@ -772,3 +772,31 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+
+
+
+
+
+
+
+
+
+    .btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:4px;
+}
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
+}
+
+.btn{
+        line-height: 1
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
